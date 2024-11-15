@@ -72,3 +72,78 @@ Follow these steps to download, build, and run the CLEOPS Simulator:
    Clone the repository to your local machine using Git:
    ```bash
    git clone https://github.com/brunospies/cleops-simulator.git
+   ```
+### Compile the Project:
+
+To compile the project from the command line:
+
+```bash
+javac -d bin src/*.java
+```
+
+### Run the Simulator:
+
+After compiling the project, run the simulator using the following command:
+
+```bash
+java -cp bin Main
+```
+### Using an IDE:
+
+To run the CLEOPS Simulator using an Integrated Development Environment (IDE), follow these steps:
+
+1. Open the project in your preferred IDE (e.g., IntelliJ IDEA, Eclipse, or NetBeans).
+2. Build the project to compile all Java files.
+3. Locate the `Main` class in the project structure.
+4. Run the `Main` class to start the simulator.
+
+The IDE will handle compilation and execution, providing an easy way to debug and interact with the simulator.
+
+## Contributing
+
+Contributions to the **CLEOPS Simulator** are welcome! Follow the steps below to contribute:
+
+1. **Fork the Repository**:
+   - Click the "Fork" button at the top of the repository page to create a copy in your GitHub account.
+
+2. **Clone the Repository**:
+   - Clone the forked repository to your local machine:
+     ```bash
+     git clone https://github.com/your-username/cleops-simulator.git
+     ```
+
+3. **Create a Feature Branch**:
+   - Create a new branch for your feature or bug fix:
+     ```bash
+     git checkout -b feature/your-feature-name
+     ```
+
+4. **Make Changes**:
+   - Implement your changes and ensure everything works as intended.
+   - Add comments and documentation where necessary.
+
+5. **Commit Your Changes**:
+   - Write clear and concise commit messages describing your changes:
+     ```bash
+     git commit -m "Add a brief description of your changes"
+     ```
+
+6. **Push Your Changes**:
+   - Push your branch to your forked repository:
+     ```bash
+     git push origin feature/your-feature-name
+     ```
+
+7. **Open a Pull Request**:
+   - Navigate to the original repository and click the "New Pull Request" button.
+   - Select your branch and provide a detailed description of the changes you made.
+
+### Contribution Guidelines:
+
+- Ensure your code adheres to the project's coding style and standards.
+- Test your changes thoroughly to avoid breaking existing functionality.
+- Include comments and documentation for new features or changes.
+- Be respectful and collaborative when discussing changes in pull requests or issues.
+
+If you have any questions or suggestions, feel free to open an issue or discussion on the repository.
+
